@@ -1,1 +1,84 @@
-...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop - Stylique</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Stylique</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="shop.html">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <h1 class="text-center mb-4">Shop All Products</h1>
+    <div class="row">
+
+      <!-- Repeat of product cards for all categories -->
+      <div class="col-md-3">
+        <div class="product-card">
+          <img src="https://picsum.photos/200/300?random=5" alt="Product Image">
+          <h5 class="mt-2">Casual Grey Tee</h5>
+          <p>₹549 - Stylish comfort fit T-shirt.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="product-card">
+          <img src="https://picsum.photos/200/300?random=6" alt="Product Image">
+          <h5 class="mt-2">Slim Fit Shirt</h5>
+          <p>₹899 - Formal slim shirt with stretch.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="product-card">
+          <img src="https://picsum.photos/200/300?random=7" alt="Product Image">
+          <h5 class="mt-2">Dark Blue Jeans</h5>
+          <p>₹1199 - Durable denim for everyday use.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="product-card">
+          <img src="https://picsum.photos/200/300?random=8" alt="Product Image">
+          <h5 class="mt-2">Windbreaker Jacket</h5>
+          <p>₹1599 - Water-resistant and lightweight.</p>
+        </div>
+      </div>
+
+    </div>
+    <footer class="text-center mt-5 mb-3 text-muted">
+      &copy; 2025 Stylique. All rights reserved.
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
